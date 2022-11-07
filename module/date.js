@@ -1,4 +1,4 @@
-import { DateTime } from '../node_modules/luxon/src/luxon.js';
+import { DateTime } from '../luxon/src/luxon.js';
 
 const time = document.getElementById('time');
 time.innerHTML = DateTime.now();
